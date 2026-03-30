@@ -119,7 +119,7 @@ class AliyunAISearchEngine:
 
 # 使用示例
 def main():
-    engine = AliyunAISearchEngine(api_key="sk-4ea60d3ea5d44edd961bdf3ac6e28ca9")
+    engine = AliyunAISearchEngine(api_key="sk-xxx")
 
     # 使用高级配置，top_k=10 自动启用 high 搜索
     result = engine.search_with_custom_settings(
